@@ -12,7 +12,8 @@ namespace Exercises.Exercise1
         [TestMethod]
         public void TestMethod()
         {
-            // The variable foo is not declared
+            // Uncomment to fix compile error
+            // var foo = "foo";
             Assert.AreEqual("foo", foo);
         }
     }
