@@ -10,7 +10,7 @@ namespace Exercises.Exercise2
     class Exercise2
     {
         [TestMethod]
-        public void Exercise2()
+        public void TestMethod()
         {
             // The variable bar is not declared
             Assert.AreEqual("bar", bar);
